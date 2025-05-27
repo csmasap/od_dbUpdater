@@ -69,8 +69,7 @@ def fetch_salesforce_data(sf_opportunity_discussed_id):
             TR1__Candidate__r.FirstName,
             Screening_Transcript__c,
             Internal_Interview_Transcript__c,
-            X1st_Interview_Transcript__c
-            # X2nd_Interview_transcript__c 
+            X1st_Interview_Transcript__c            
         FROM
             TR1__Opportunity_Discussed__c
         WHERE Id = '{sf_opportunity_discussed_id}'
