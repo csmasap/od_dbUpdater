@@ -128,7 +128,7 @@ def update_postgres_record(salesforce_opp_discussed_id, sf_data):
             x1st_interview_transcript_c = %s,
             x2nd_interview_transcript_c = %s,
             updated_at = CURRENT_TIMESTAMP
-        WHERE salesforce_opp_discussed_id = %s 
+        WHERE od_id = %s 
     """ 
     # Add or remove fields in the SET clause to match your od_data table schema
 
